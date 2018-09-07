@@ -738,7 +738,7 @@ which really form a part of the language:
   >>> A().a
   'a value'
 
-  In this example, ``A.a`` is an read-only attribute. It is also
+  In this example, ``A.a`` is a read-only attribute. It is also
   documented: ``help(A)`` includes the docstring for attribute ``a``
   taken from the getter method. Defining ``a`` as a property allows it
   to be a calculated on the fly, and has the side effect of making it
